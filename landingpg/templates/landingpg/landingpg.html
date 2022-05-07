@@ -1,0 +1,31 @@
+{% extends "Profile/base.html" %}
+{% load static %}
+
+{% block title %} festus' profile {% endblock %}
+
+{% block body %}
+	<center>
+		<div class="card-group col-sm-8">
+		  <div class="card landingpginfocard">
+		    <div class="card-body">
+		    <h5 class="card-title text-info">About me</h5>	
+		     <p class="card-text">I am a data analyst, and also a software development entusiast :)</p>
+		      <a href="#" class="btn btn-outline text-info">
+				<i class="fa-brands fa-github"></i>
+			</a>
+			<a href="#" class="btn btn-outline text-info">
+				<i class="fa-brands fa-linkedin"></i>
+			</a>
+			<a href="#" class="btn btn-outline text-info">
+				<i class="fa-solid fa-envelope"></i>
+			</a>
+		    </div>
+		  </div>
+		  <div class="card landingpginfocard">
+		    <img src="{% static 'profpic.jpg' %}" class="img-fluid profpic" alt="...">
+		  </div>
+		</div>
+	</center>
+{% endblock %}
+
+

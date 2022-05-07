@@ -1,0 +1,31 @@
+.navbar-brand,.navbar, .body-container {
+		font-family: sans-serif;
+		font-size: 20px;	
+}
+
+.navbar-brand {
+	font-style: italic;
+}
+
+body {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.profpic {
+	border-radius: 200px 10px 200px 10px;
+	width: 400px;
+	margin-left: 2px;
+}
+
+.landingpginfocard {
+	border: none;
+	/*width: 50%;*/
+}
+
+.footer-copywrite {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+}
+
